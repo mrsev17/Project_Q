@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+
+}
+
+#hider {
+  display: none;
+}
+
+#hider:checked + .task {
+  display: none;
+}
+
+.task {
+  padding: 50px 150px;
+}
+
+.title{
+  margin: 0 auto;
+}
+
+.task .task__step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#app {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.task__step {
+ flex: 1
+}
+
+ span{
+  font-weight: bold;
+}
+
+.solution__wrapper {
+    border-radius: 20px;
+    margin: 40px auto 0;
+    padding: 10px 10px;
+    height: 600px;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#detail {
+    display: block;
+    /*
+    width: 100%;
+    max-height: 600px;
+    /*background-color: beige;*/
+}
